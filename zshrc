@@ -35,7 +35,6 @@ DISABLE_AUTO_UPDATE=true
 alias cl='clear'
 alias vi='vim'
 alias viim='vim'
-alias nemo='ssh chenyu@baolei'
 #eval $(thefuck --alias mb)
 
 # tmux 初始化
@@ -66,7 +65,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-[[ -s /home/nemo/.autojump/etc/profile.d/autojump.sh ]] && source /home/nemo/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
 export NVM_DIR="$HOME/.nvm"
